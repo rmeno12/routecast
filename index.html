@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Routecast</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./date-and-time.js"></script>
+    <script>var exports = {};</script>
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <h3>Routecast</h3>
+    <div class="flex-container" id="row">
+        <div id="map"></div>
+        <div id="right">
+            <p>Start location</p>
+            <input id="start" type="text">
+            <p>End location</p>
+            <input id="end" type="text">
+            <input id="submit" type="button" value="Submit">
+        </div>
+    </div>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsgLAKa8pXzni4FS7-QUA_2-w80S-9l1M&callback=initMap&libraries=&v=weekly"
+        async></script>
+</body>
+
+</html>

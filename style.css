@@ -1,0 +1,14 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#right {
+    margin-left: 16px;
+    width: 20%;
+}
+
+#map {
+    height: 720px;
+    width: 100%;
+}
